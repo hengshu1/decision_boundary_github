@@ -13,7 +13,6 @@ from scipy.stats import entropy
 import glob, argparse
 
 
-
 def PCA_on_feature_matrix(c1_c2_features, n_components):
     # PCA on the embedding features
     pca = PCA(n_components=n_components)

@@ -1,7 +1,6 @@
 import torch
 import torchvision
 import torchvision.transforms as transforms
-import torch.nn.functional as F
 import numpy as np
 
 '''This can be applied to any trained model and do not need training. It just needs a training dataset to compute the measure'''
