@@ -27,7 +27,7 @@ This is the code base for our decision boundary paper: The Vanishing Decision Bo
  
 7. Run `plot_fig4_fig5_fig8.py` to produce the three figures. 
 
-8. To make a video of the decision boundary evolution for a training process, run `python make_db_evolution_video.py`
+8. To make a video of the decision boundary evolution for a training process, run `python decision_boundary_evolution_video.py`
 
 
 
