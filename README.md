@@ -20,7 +20,7 @@ This is the code base for our decision boundary paper: The Vanishing Decision Bo
 
 4. Run `python generate_fig7.py` to plot Fig 7. 
 
-5. Run `python plot_cat_dog_in_PCA2.py' to plot the cat and dog samples in the PCA(2) space. This is a simpler version of Fig1, without the background plotting. 
+5. Run `python plot_cat_dog_in_PCA2.py` to plot the cat and dog samples in the PCA(2) space. This is a simpler version of Fig1, without the background plotting. 
 
 
 
