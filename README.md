@@ -16,9 +16,7 @@ This is the code base for our decision boundary paper: The Vanishing Decision Bo
 
 `python generate_cctm.py` 
 
-After this, run 
-
-`python plot_cctm.py` to generate Figure 1. 
+After this, run `python plot_cctm.py` to generate Figure 1. 
 
 3. Generate the embedding features on the training samples. To generate for the above trained model(s), run 
  
