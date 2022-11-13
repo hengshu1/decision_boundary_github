@@ -12,11 +12,11 @@ This is the code base for our decision boundary paper: The Vanishing Decision Bo
 
 >`python main.py --model VGG19 --optimizer sgd --lr 0.1 --lr_mode schedule --saved_dir ./run1`
 
-2. Generate the embedding features on the training samples. To generate for the above trained model(s), run 
+2. Generate the embedding features on the training samples. This provides the feature space that we are going to analyze in the paper.  To generate for the above trained model(s), run 
  
 >`python output_space.py --model VGG19 --saved_dir ./run1` 
 
->This provides the feature space that we are going to analyze in the paper. 
+3. Run `generate_mean_and_variance.py` to generate the centers (for individual classes) and singulvar values (of the joint features matrix between a class pair) during training.
 
 
 
