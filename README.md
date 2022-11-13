@@ -13,8 +13,8 @@ This is the code base for our decision boundary paper: The Vanishing Decision Bo
 `python main.py --model VGG19 --optimizer sgd --lr 0.1 --lr_mode schedule --saved_dir ./run1`
 
 2. Plot CCTM: Cross-Class Test accuracy Matrix/Map. 
--- `python generate_cctm.py` This is used to generate the data for Figure 1 and Table 1 in the paper. 
--- After this, run `python plot_cctm.py` to generate Figure 1. 
+2.1 `python generate_cctm.py` This is used to generate the data for Figure 1 and Table 1 in the paper. 
+2.2 After this, run `python plot_cctm.py` to generate Figure 1. 
 
 3. Generate the embedding features on the training samples. To generate for the above trained model(s), run 
  
