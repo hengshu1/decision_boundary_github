@@ -8,8 +8,6 @@ This is the code base for our decision boundary paper: The Vanishing Decision Bo
 
 # Steps for running our experiments:
 
-0. Pre-requisite: sklearn
-
 1. Train a model (such as VGG19) using an optimizer. Below shows using the SGD optimizer and learning rate anealling/scheduling starting from 0.1 and decays according to a Cosine rule. This code can save models every epoch, for example, to facilitate analyze the training without rerun the training process. 
 
 >`python main.py --model VGG19 --optimizer sgd --lr 0.1 --lr_mode schedule --saved_dir ./run1_VGG19`
@@ -29,6 +27,7 @@ This is the code base for our decision boundary paper: The Vanishing Decision Bo
  
 7. Run `plot_fig4_fig5_fig8.py` to produce the three figures. 
 
+8. To make a video of the decision boundary evolution for a training process, run `python make_db_evolution_video.py`
 
 
 
