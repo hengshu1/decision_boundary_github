@@ -15,6 +15,7 @@ This is the code base for our decision boundary paper: The Vanishing Decision Bo
 2. Generate the embedding features on the training samples. To generate for the above trained model(s), run 
  
 >`python output_space.py --model VGG19 --saved_dir ./run1` 
+
 >This provides the feature space that we are going to analyze in the paper. 
 
 
