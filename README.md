@@ -14,7 +14,8 @@ This is the code base for our decision boundary paper: The Vanishing Decision Bo
 
 2. Generate the embedding features on the training samples. This provides the feature space that we are going to analyze in the paper.  To generate for the above trained model(s), run 
  
->`python output_space.py --model VGG19 --saved_dir ./run1` Before this, run `extract_test_objects_classwise.py` to extract the test objects arranged in a dataloader by each class. 
+>`python output_space.py --model VGG19 --saved_dir ./run1` 
+>Before this, run `extract_test_objects_classwise.py` to extract the test objects arranged in a dataloader by each class. 
 
 3. Run `python generate_mean_and_variance.py` to generate the centers (for individual classes) and singulvar values (of the joint features matrix between a class pair) during training.
 
