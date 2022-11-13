@@ -8,8 +8,12 @@ This is the code base for our decision boundary paper: The Vanishing Decision Bo
 
 # Steps for running our experiments:
 
-1. `python main.py --model VGG19 --optimizer sgd --lr 0.1 --lr_mode schedule --saved_dir ./run1`
-This trains VGG19 model using the SGD optimizer and learning rate anealling/scheduling starting from 0.1 and decays according to a Cosine rule. 
+1. Train a model (such as VGG19) using an optimizer. 
+
+`python main.py --model VGG19 --optimizer sgd --lr 0.1 --lr_mode schedule --saved_dir ./run1`
+
+This uses the SGD optimizer and learning rate anealling/scheduling starting from 0.1 and decays according to a Cosine rule. 
+
 
 2. `d`
 
