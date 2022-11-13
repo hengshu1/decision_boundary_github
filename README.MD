@@ -6,7 +6,7 @@ This is the code base for our decision boundary paper: The Vanishing Decision Bo
 
 - Decision boundary is also useful in many other applications of deep learning, see the Related Work section in the paper for details.
 
-# Steps for running our experiments:
+## Steps for running our experiments:
 
 1. Train a model (such as VGG19) using an optimizer. Below shows using the SGD optimizer and learning rate anealling/scheduling starting from 0.1 and decays according to a Cosine rule. This code can save models every epoch, for example, to facilitate analyze the training without rerun the training process. 
 
