@@ -6,7 +6,12 @@ This is the code base for our decision boundary paper: The Vanishing Decision Bo
 
 - Decision boundary is also useful in many other applications of deep learning, see the Related Work section in the paper for details.
 
+# Steps for running our experiments:
 
+1. 'python main.py --model VGG19 --optimizer sgd --lr 0.1 --lr_mode schedule --saved_dir ./run1'
+This trains VGG19 model using the SGD optimizer and learning rate anealling/scheduling starting from 0.1 and decays according to a Cosine rule. 
+
+2. `d`
 
 
 
